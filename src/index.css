@@ -9,7 +9,7 @@
 }
 
 body{
-   background-color:black;
+   /* background-color:black; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -23,7 +23,7 @@ body{
   background-color: brown;
 }
 */
-/* .app {
+.app {
   
   height: 100vh;
   width: 100vw;
@@ -35,7 +35,7 @@ body{
   transition-duration: 1s;
   overflow: hidden;
   
-}  */
+} 
 
 
 input{
@@ -69,6 +69,9 @@ input{
     font-size: 20px;
     outline: none;
     font-size: 16px;
+  }
+  .searchButton:hover{
+    background: blueviolet;
   }
   .container{
       display: flex;
@@ -109,8 +112,7 @@ input{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
-/*    
-    color:#dab22e; */
+
     
     align-items: center;}
   
@@ -119,7 +121,7 @@ input{
   padding: 2% 0;
   border-bottom-left-radius: 2.0vw;
   border-bottom-right-radius: 2.0vw;
-  background-color:rgb(74 207 106);
+  /* background-color:rgb(74 207 106); */
   /* #fafafa; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
