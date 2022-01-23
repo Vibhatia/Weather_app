@@ -9,7 +9,7 @@
 }
 
 body{
-   /* background-color:black; */
+    /* background: black; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -19,10 +19,7 @@ body{
 
 
 
-/* .warm {
-  background-color: brown;
-}
-*/
+
 .app {
   
   height: 100vh;
@@ -121,12 +118,11 @@ input{
   padding: 2% 0;
   border-bottom-left-radius: 2.0vw;
   border-bottom-right-radius: 2.0vw;
-  /* background-color:rgb(74 207 106); */
-  /* #fafafa; */
+  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  /* font-size: 8rem; */
+  
     }
 
  .extra p {
@@ -138,7 +134,7 @@ input{
         text-align: left;
         font-weight: 600;
         text-transform: capitalize;
-        /* color: #080705; */
+        
         font-size: 2rem;
 }
          

@@ -1,16 +1,13 @@
  import React,{useState} from 'react';
- 
-
  import './index.css';
-
-import Mist from "./images/mist.jpg";
-import Sunny from "./images/sunny.jpg";
-import Clear from "./images/clear.jpg";
-import Fog from "./images/fog.jpg";
-import Rain from "./images/rain.jpg";
-import Snow from "./images/snow.jpg";
-import Overcast from "./images/overcast.jpg";
-import Cloudy from "./images/cloudy.jpg";
+ import Mist from "./images/mist.jpg";
+ import Sunny from "./images/sunny.jpg";
+ import Clear from "./images/clear.jpg";
+ import Fog from "./images/fog.jpg";
+ import Rain from "./images/rain.jpg";
+ import Snow from "./images/snow.jpg";
+ import Overcast from "./images/overcast.jpg";
+ import Cloudy from "./images/cloudy.jpg";
 
 const App = () => {
   const [searchCity,setSearchCity] =useState('delhi');
@@ -45,21 +42,9 @@ const App = () => {
   //   Fetch();
   // }, []);
  
-  
-
-
-
-
-  
   return (
 
-
-    
-    
-   
     <>
-
-  
        <div className="app" style={ 
          cityInfo.weather[0].main==="Mist"? {backgroundImage: `url(${Mist})` } 
                                       : cityInfo.weather[0].main?.includes("Cloud")
@@ -92,15 +77,6 @@ const App = () => {
        <button className="searchButton"onClick={Fetch}>Search</button>
     </div>
 
-
-
-
-
-
-
-
-
-    
      <div className="container">
            
            <div className="cityName">{cityInfo.name}</div>
@@ -109,9 +85,6 @@ const App = () => {
            <div className="temp">{cityInfo.main.temp}°C</div>
            <div className="desc">{cityInfo.weather[0].main}</div>
         </div> 
-
-
-
 
         <div className="extra">
         <div className="sunset">
@@ -125,8 +98,6 @@ const App = () => {
 
                 </p>
             </div>
-
-
 
             <div className="two-columns">
               <p>
@@ -164,17 +135,8 @@ const App = () => {
 
         </div>
    
-   
-    
     </div>
-
-
-
-
-
-
     </>
-    
   )
 }
 
